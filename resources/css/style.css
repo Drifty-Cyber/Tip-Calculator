@@ -1,0 +1,77 @@
+body {
+    font-family: roboto;
+    background-image: url(img/leaves-pattern.png);
+    text-align: center;
+}
+
+.container {
+    /* height: 525px; */
+    /* width: 360px; */
+    margin-top: 15%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(86, 91, 95);
+    font-weight: normal;
+    color: #359455;
+}
+
+#billAmount:focus {
+    outline: none;
+    border: 3px solid rgb(51, 199, 83);
+    transition: border 0.2s;
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    -ms-transition: border 0.2s;
+    -o-transition: border 0.2s;
+}
+
+#peopleAmount:focus {
+    outline: none;
+    border: 3px solid #18d26e;
+    transition: border 0.2s;
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    -ms-transition: border 0.2s;
+    -o-transition: border 0.2s;
+}
+
+#serviceQuality:focus {
+    outline: none;
+    border: 3px solid #18d26e;
+    transition: border 0.2s;
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    -ms-transition: border 0.2s;
+    -o-transition: border 0.2s;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #18d26e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:hover {
+    background: #359455;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    -ms-transition: background 0.2s;
+    -o-transition: background 0.2s;
+}
+
+#totalTip {
+    font-size: 30px;
+}
+
+#totalTip::before {
+    content: "Tip Amount: ";
+
+}
